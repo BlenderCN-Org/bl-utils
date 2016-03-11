@@ -13,7 +13,7 @@ bl_info = {
 
 class OriginToSelected(bpy.types.Operator):
     bl_description = "Move origin of the mesh to selection"
-    bl_idname = "view3d.origin_to_selected"
+    bl_idname = "mesh.origin_to_selected"
     bl_label = "Origin To Selected"
     bl_options = {"REGISTER", "UNDO"}
 
